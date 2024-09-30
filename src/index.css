@@ -1,0 +1,21 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --rtc-color-1: #f13b3b;
+  --rtc-color-2: #ffcd29;
+  --rtc-color-3: #507c5c;
+  --rtc-color-4: #3b59a5;
+  --rtc-color-5: #bf4059;
+  --rtc-color-6: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  background-color: var(--rtc-color-4);
+}

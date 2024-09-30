@@ -1,0 +1,33 @@
+.evolutions {
+  min-height: 90svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px;
+  position: relative;
+}
+
+.check {
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: var(--rtc-color-2);
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  transition: all 0.5s;
+}
+
+.check:hover {
+  transform: scale(1.1);
+}
+
+.input-evolutions {
+  padding: 10px 10px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  color: var(--rtc-color-2);
+  background-color: var(--rtc-color-6);
+}
